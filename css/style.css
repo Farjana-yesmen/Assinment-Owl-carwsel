@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,400i,600,700,900&display=swap');
+
+/* Global CSS */
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a:hover{
+	text-decoration: none;
+}
+.no-padding{
+	padding: 0;
+}
+
+
+/*Global Css*/
+.sub-title{
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #008ed6;
+}
+.title{
+	font-size: 42px;
+	line-height: 46px;
+	font-weight: 300;
+	color: #fffefe;
+	margin-top: 20px; 
+}
+
+.divider-c{
+	width: 100%;
+	padding: 10px 0px;
+	background: url(../img/divider.png) center top no-repeat;
+}
+.divider-l{
+	width: 100%;
+	padding: 10px 0px;
+	background: url(../img/divider.png) center left no-repeat;
+}
+.btn-primary{
+	background: transparent;
+	border: 1px solid #fffefe;
+	color: #fffefe;
+	padding: 10px 30px;
+	border-radius: 2px;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.btn-primary:hover{
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	color: #fffefe;
+}
+.no-padding{
+	padding: 0;
+}
+
+
+/* Header Section code here*/
+
+.header-section{
+	width: 100%;
+	padding: 0px;
+	background: url(../img/banner.png) center top no-repeat;
+	background-size: cover;
+}
+.header-section .bg-light {
+    background-color: transparent !important;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+    color: #fffefe;
+    background: url(../img/divider.png) center bottom no-repeat;
+    color: #fffefe;
+    font-weight: 600;
+
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fffefe;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 12px 0px 12px;
+}
+ .header-section .navbar-light .navbar-nav .nav-link:hover {
+    color: #008ed6;
+    background: url(../img/divider.png) center bottom no-repeat;
+}
+
+
+/* Banner Code goes here*/
+.banner-content{
+	width: 100%;
+	padding: 170px 0px;
+}
+.banner-content p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #999999;
+	margin-top: 20px;
+}
+.banner-content .btn{
+	margin-top: 40px;
+}
+.banner-content .extra{
+	margin-left: 15px;
+
+}
+
+
+
+.features-section{
+	width: 100%;
+	padding: 80px 0px; 
+}
+.features-section .sub-title{
+	text-align: center;
+}
+.features-section .title{
+	text-align: center;
+	color: #000;
+	margin-top:10px;
+	margin-bottom: 25px;
+}
+
+.inner-content{
+	width: 100%;
+	padding: 42px 40px;
+	text-align: center;
+}
+.inner-content .icon-box{
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 100%;
+	border: 1px solid #eee;
+	text-align: center; 
+	margin: 0 auto;
+}
+.inner-content .icon-box .fa{
+	font-size: 30px;
+    line-height: 70px;
+	color: #008ed6;
+}
+.inner-content h4{
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #000;
+	margin: 20px 0px 10px 0px;
+}
+.inner-content p{
+	font-size: 14px;
+	font-weight: 300;
+	color: #aaa;
+}
+
+.about-section{
+	border-top: 1px solid #ededed;
+	width: 100%;
+	padding: 80px 0px;
+}
+.about-section .title{
+	color: #000;
+	margin-top: 10px;
+}
+.about-section .divider-l{
+	margin-bottom: 20px;
+}
+.about-section p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #aaa;
+}
+.about-section ul{
+	margin: 0px;
+	padding: 25px 0px 0px 0px;
+}
+
+.about-section ul li{
+	list-style: none;
+	display: block;
+	font-size: 18px;
+	color: #000;
+	line-height: 35px;
+}
+
+.about-section ul li .fa{
+	padding-right: 15px;
+	color: #008ed6;
+}
+
+/* About Phone Section CSS */
+.about-phone{
+	background: #f2f2f2;
+	padding: 80px 0;
+}
+.content-middle{
+	padding: 75px 0;
+}
+.about-phone .title{
+	color: #000;
+	margin-top: 10px;
+}
+.about-phone .divider-l{
+	margin-bottom: 20px;
+}
+.about-phone p{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #999999;
+}
+.custom-img{
+	max-width: 100%;
+    height: auto;
+}
+
+/* Testimonials Section Start */
+.testimonial-section{
+	padding: 120px 0;
+	background: url(../img/testimonials.png) no-repeat center;
+	background-size: cover;
+}
+.testimonial-section .title{
+	color: #fff;
+	margin-top: 10px;
+}
+.testimonial-section .divider-c{
+	margin-top: 20px;
+}
+.testimonials-content{
+	margin-top: 50px;
+}
+.owl-carousel .item h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	font-weight: 300;
+    font-style: italic;
+    padding: 0 15px;
+}
+.client-details{
+	margin-top: 25px;
+}
+.client-details h5{
+	color: #fff;
+    font-size: 16px;
+}
+.client-details h6{
+	color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 50px;
+}
+
+/* Download Section CSS */
+.download-section{
+	background: #15141a;
+	padding: 70px 0;
+}
+.download-section h1{
+	font-size: 36px;
+	color: #fff;
+	font-weight: 300;
+}
+.download-section h1 span{
+	font-weight: 700;
+}
+.btn-download{
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	color: #fffefe;
+	padding: 10px 30px;
+	border-radius: 2px;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.btn-download:hover{
+	background: transparent;
+	border: 1px solid #008ed6;
+	color: #fffefe;
+}
+
+/* Pricing Section CSS */
+.pricing-section{
+	padding: 80px 0;
+}
+.pricing-section .title{
+	color: #000;
+    margin-top: 10px;
+}
+.pricing-section .divider-c{
+	margin-bottom: 20px;
+}
+
+.pricing-table{
+	border: 1px solid #ededed;
+}
+.table-heading{
+	border-bottom: 1px solid #ededed;
+	padding: 25px 20px;
+	transition: 0.3s ease-in-out;
+}
+.table-heading h2{
+	color: #333;
+	font-size: 36px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.table-pricing{
+	border-bottom: 1px solid #ededed;
+	padding: 25px 20px;
+	transition: 0.3s ease-in-out;
+}
+.table-pricing h2{
+	position: relative;
+	font-size: 72px;
+	font-weight: 500;
+}
+.table-pricing h2::before {
+    content: "$";
+    position: absolute;
+    font-size: 31px;
+    font-weight: 600;
+    top: 16px;
+    left: 56px;
+}
+.table-pricing p{
+	margin: 0;
+    color: #bbb;
+    font-size: 18px;
+    line-height: 10px;
+}
+.pricing-details{
+	padding: 25px 20px 35px;
+	transition: 0.3s ease-in-out;
+}
+.pricing-details p{
+	color: #bbb;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.pricing-details p span{
+	color: #008ed6;
+}
+.btn-pricing{
+	color: #008ed6;
+	border: 1px solid #ededed;
+	padding: 8px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: 0.3s ease-in-out;
+}
+.pricing-table:hover .table-heading h2{
+	color: #008ed6;
+	cursor: pointer;
+}
+.pricing-table:hover .table-pricing{
+	background: #008ed6;
+	color: #fff;
+	cursor: pointer;
+}
+.pricing-table:hover .table-pricing p{
+	color: #fff;
+	cursor: pointer;
+}
+.pricing-table:hover .btn-pricing{
+	background: #008ed6;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.contact-form{
+	margin-bottom: -75px;
+    position: relative;
+    z-index: 1;
+}
+.contact-bg{
+	background: #333;
+    padding: 30px 10px 15px;
+}
+.form-field{
+	height: 42px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #333;
+    background-clip: padding-box;
+    border: 1px solid #777879;
+    border-radius: .25rem;
+    transition: border-color .15s
+    }
+.form-group .btn{
+	float: right;
+	border-radius: 0;
+	border: 1px solid #777879;
+
+}
+
+
+/*footer section CSS*/
+footer{
+	width: 100%;
+	background:#15141a;
+	padding: 25px 0;
+	
+}
+.f-info {
+	padding-bottom: 5px;
+	text-align: center;
+	
+
+}
+a {
+    color: #9c959561;
+    text-decoration: none;
+    background-color: transparent;
+}
+a{
+	transition: 0.4s;
+}
+.footer-media {
+	padding-bottom: 5px;
+	text-align: center;
+	color: #9999;
+}
+
+.footer-media ul{
+	padding: 0;
+	margin:0;
+}
+.footer-media ul li{
+	list-style: none;
+	display: inline;
+}
+
+.footer-media ul li .fa{
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+    color: #9999;
+    line-height:40px;
+    
+}
+.footer-media ul li .fa:hover{
+ transform: scale(1.3,1.3);
+ color: #15a4fa;
+
+}
+
+/*Media query for responsive*/
+@media screen and (max-width:576px){
+ 
+
+.banner-content {
+    width: 100%;
+    padding: 50px 0px;
+    margin-left: 20px
+}
+.inner-content {
+    padding: 10px 30px;
+    
+}
+.about-section {
+    padding: 30px 0px;
+}
+.about-section ul {
+    margin: 0px;
+    padding: 10px 0px 0px 80px;
+}
+.content-middle {
+    padding: 0 8px;
+}
+.about-phone {
+    padding: 20px 0;
+}
+.testimonial-section {
+    padding: 60px 0;
+}
+.divider-c {
+    width: 100%;
+   padding: 1px 0px;
+
+	}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 10%;
+	    }
+.download-section {
+    padding: 40px 20px;
+}
+.pricing-section {
+    padding: 40px 0;
+}
+.table-pricing h2::before {
+    left: 150px;
+}
+.table-pricing {
+    padding: 10px 20px;
+    }
+
+}
